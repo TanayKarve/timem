@@ -17,8 +17,9 @@ Operating System :: Unix
 
 setup(
     name="timem",
+    long_description_content_type="text/markdown",
+    long_description=open("README.md").read(),
     description="A module for monitoring memory usage of a python program",
-    version="1.0",
     author="Tanay Karve",
     url="https://github.com/tanaykarve/timem",
     py_modules=["timem"],
