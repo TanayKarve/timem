@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: timem
-Version: 0.0.0
+Version: 0.0.1
 Summary: A module for monitoring memory usage of a python program
 Home-page: https://github.com/tanaykarve/timem
 Author: Tanay Karve
@@ -63,7 +63,7 @@ Description: # Timem
         ```python
         from timem import profile
         
-        @profile(memory=False)
+        @profile(timer=False)
         def isPalindrome(s):
             return s == s[::-1]
         
@@ -82,6 +82,7 @@ Description: # Timem
         
         True
         ```
+        
 Platform: UNKNOWN
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Science/Research

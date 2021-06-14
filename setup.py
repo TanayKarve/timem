@@ -19,6 +19,7 @@ setup(
     name="timem",
     long_description_content_type="text/markdown",
     long_description=open("README.md").read(),
+    version="0.0.1",
     description="A module for monitoring memory usage of a python program",
     author="Tanay Karve",
     url="https://github.com/tanaykarve/timem",

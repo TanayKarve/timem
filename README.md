@@ -56,7 +56,7 @@ True
 ```python
 from timem import profile
 
-@profile(memory=False)
+@profile(timer=False)
 def isPalindrome(s):
     return s == s[::-1]
 
